@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAXIMUM — Магазин для всієї родини | Гнідин</title>
+    <meta name="description" content="MAXIMUM — універсальний магазин у Гнідині. Побутова хімія, косметика, техніка, іграшки, канцтовари, посуд та багато іншого. Працюємо щодня 9:00–19:00.">
+    <link rel="icon" href="img/logo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header__inner">
+            <a href="#" class="header__logo">
+                <img src="img/logo-icon.png" alt="MAXIMUM логотип" width="38" height="38">
+                <span class="header__brand">MA<span class="red">X</span>IMUM</span>
+            </a>
+            <nav class="header__nav" id="nav">
+                <a href="#about">Про нас</a>
+                <a href="#catalog">Асортимент</a>
+                <a href="#gallery">Магазин</a>
+                <a href="#metlife" class="nav__metlife-link"><img src="img/metlife-logo.png" alt="MetLife" class="nav__metlife-logo"></a>
+                <a href="#contacts">Контакти</a>
+            </nav>
+            <a href="tel:+380673270865" class="header__phone">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                067 327 08 65
+            </a>
+            <button class="header__burger" id="burger" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero__bg"></div>
+        <div class="container hero__inner">
+            <div class="hero__content">
+                <img src="img/logo-trans.png" alt="MAXIMUM — Магазин для всієї родини" class="hero__logo-img">
+                <p class="hero__subtitle">Універсальний магазин у Гнідині з <strong>2019 року</strong> — все для дому, краси, дітей та родини в одному місці</p>
+                <div class="hero__actions">
+                    <a href="tel:+380673270865" class="btn btn--primary btn--pulse">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        Зателефонувати
+                    </a>
+                    <a href="https://maps.app.goo.gl/yGvuvTjBa15Ltr5S9" target="_blank" class="btn btn--outline">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        Як дістатися
+                    </a>
+                </div>
+                <div class="hero__schedule">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    Працюємо щодня <strong>9:00 — 19:00</strong>
+                </div>
+            </div>
+            <div class="hero__photo">
+                <img src="img/store-front.jpg" alt="Магазин MAXIMUM — вигляд з вулиці">
+            </div>
+        </div>
+        <a href="#catalog" class="hero__scroll-hint" aria-label="Прокрутити вниз">
+            <span></span>
+        </a>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title reveal">Про нас</h2>
+            <div class="about__intro reveal">
+                <p>Ми — універсальний сімейний магазин у серці Гнідина, де кожен покупець — бажаний гість. Тут вас завжди зустрінуть з посмішкою, допоможуть із вибором і знайдуть те, що потрібно. Ми пишаємося тим, що знаємо наших покупців особисто і щиро раді кожному, хто до нас завітає.</p>
+            </div>
+            <h2 class="section-title section-title--sub reveal">Чому <span class="red">MAXIMUM</span>?</h2>
+            <div class="about__grid">
+                <div class="about__card reveal reveal--up" style="--delay:.05s">
+                    <div class="about__icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+                    </div>
+                    <h3>Широкий асортимент</h3>
+                    <p>Від побутової хімії до техніки, від іграшок до косметики — все в одному магазині</p>
+                </div>
+                <div class="about__card reveal reveal--up" style="--delay:.15s">
+                    <div class="about__icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0112 2a8 8 0 018 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <h3>Зручне розташування</h3>
+                    <p>На центральній вулиці Гнідина — легко знайти, зручно під'їхати, є місце для паркування</p>
+                </div>
+                <div class="about__card reveal reveal--up" style="--delay:.25s">
+                    <div class="about__icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <h3>Працюємо щодня</h3>
+                    <p>Без вихідних, з 9:00 до 19:00 — завжди відкриті, коли вам потрібно</p>
+                </div>
+                <div class="about__card reveal reveal--up" style="--delay:.35s">
+                    <div class="about__icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+                    </div>
+                    <h3>Для всієї родини</h3>
+                    <p>Кожен член сім'ї знайде щось для себе — від малечі до дорослих</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalog -->
+    <section class="catalog" id="catalog">
+        <div class="container">
+            <h2 class="section-title reveal">Наш <span class="red">асортимент</span></h2>
+            <p class="section-subtitle reveal">Натисніть на категорію, щоб дізнатися більше</p>
+            <div class="catalog__grid">
+
+                <div class="catalog__card reveal reveal--up" style="--delay:.05s" tabindex="0">
+                    <div class="catalog__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3h18v18H3z"/><path d="M3 9h18M9 3v18"/></svg>
+                    </div>
+                    <h3>Побутова хімія</h3>
+                    <p>Засоби для прання, миття посуду, прибирання, освіжувачі та багато іншого для чистоти вашого дому</p>
+                    <span class="catalog__arrow">&rarr;</span>
+                </div>
+
+                <div class="catalog__card reveal reveal--up" style="--delay:.1s" tabindex="0">
+                    <div class="catalog__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 2v4m0 12v4m-7.07-3.93l2.83-2.83m8.48-8.48l2.83-2.83M2 12h4m12 0h4m-3.93 7.07l-2.83-2.83M6.76 6.76L3.93 3.93"/></svg>
+                    </div>
+                    <h3>Косметика</h3>
+                    <p>Декоративна та доглядова косметика, засоби для волосся, шкіри та особистої гігієни</p>
+                    <span class="catalog__arrow">&rarr;</span>
+                </div>
+
+                <div class="catalog__card reveal reveal--up" style="--delay:.15s" tabindex="0">
+                    <div class="catalog__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12" y2="18.01"/></svg>
+                    </div>
+                    <h3>Техніка та аксесуари</h3>
+                    <p>Побутова техніка, аксесуари для телефонів, колонки, навушники, фонарики та зарядки</p>
+                    <span class="catalog__arrow">&rarr;</span>
+                </div>
+
+                <div class="catalog__card reveal reveal--up" style="--delay:.2s" tabindex="0">
+                    <div class="catalog__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19V6l12-3v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+                    </div>
+                    <h3>Іграшки</h3>
+                    <p>Розвиваючі ігри, м'які іграшки, конструктори, ляльки та все для дитячих розваг</p>
+                    <span class="catalog__arrow">&rarr;</span>
+                </div>
+
+                <div class="catalog__card reveal reveal--up" style="--delay:.25s" tabindex="0">
+                    <div class="catalog__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+                    </div>
+                    <h3>Канцтовари</h3>
+                    <p>Зошити, ручки, олівці, фарби, папір, офісне приладдя — все для школи та роботи</p>
+                    <span class="catalog__arrow">&rarr;</span>
+                </div>
+
+                <div class="catalog__card reveal reveal--up" style="--delay:.3s" tabindex="0">
+                    <div class="catalog__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                    </div>
+                    <h3>Біжутерія</h3>
+                    <p>Сережки, каблучки, ланцюжки, браслети та стильні аксесуари на будь-який смак</p>
+                    <span class="catalog__arrow">&rarr;</span>
+                </div>
+
+                <div class="catalog__card reveal reveal--up" style="--delay:.35s" tabindex="0">
+                    <div class="catalog__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 5-5"/></svg>
+                    </div>
+                    <h3>Велотовари</h3>
+                    <p>Камери, покришки, насоси, фари, замки та інші велоаксесуари для вашого велосипеда</p>
+                    <span class="catalog__arrow">&rarr;</span>
+                </div>
+
+                <div class="catalog__card reveal reveal--up" style="--delay:.4s" tabindex="0">
+                    <div class="catalog__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22c-4.97 0-9-2.24-9-5v-4"/><path d="M12 14c-4.97 0-9-2.24-9-5s4.03-5 9-5 9 2.24 9 5"/><path d="M21 9v4c0 2.76-4.03 5-9 5"/><path d="M3 13c0 2.76 4.03 5 9 5"/></svg>
+                    </div>
+                    <h3>Сад і город</h3>
+                    <p>Садовий інструмент, горщики, пластик, насіння, рукавиці — все для саду та городу</p>
+                    <span class="catalog__arrow">&rarr;</span>
+                </div>
+
+                <div class="catalog__card reveal reveal--up" style="--delay:.45s" tabindex="0">
+                    <div class="catalog__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9h18v10a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><path d="M3 9l2.45-4.9A2 2 0 017.24 3h9.52a2 2 0 011.79 1.1L21 9"/></svg>
+                    </div>
+                    <h3>Білизна «Ярослав»</h3>
+                    <p>Постільна білизна, рушники, труси, майки, халати та все для бані від ТМ «Ярослав»</p>
+                    <span class="catalog__arrow">&rarr;</span>
+                </div>
+
+                <div class="catalog__card reveal reveal--up" style="--delay:.5s" tabindex="0">
+                    <div class="catalog__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 8a6 6 0 01-6 6"/><path d="M6 8a6 6 0 006 6"/><path d="M12 14v8"/><path d="M8 22h8"/><circle cx="12" cy="4" r="2"/></svg>
+                    </div>
+                    <h3>Посуд</h3>
+                    <p>Каструлі, сковорідки, чашки, тарілки, столові прибори та кухонне приладдя</p>
+                    <span class="catalog__arrow">&rarr;</span>
+                </div>
+
+                <div class="catalog__card reveal reveal--up" style="--delay:.55s" tabindex="0">
+                    <div class="catalog__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 5a3 3 0 00-3 3v9a3 3 0 006 0V8a3 3 0 00-3-3z"/><path d="M6 12a3 3 0 00-3 3 3 3 0 003 3h6"/><path d="M15.5 8.5L10 14"/></svg>
+                    </div>
+                    <h3>Фонарики та освітлення</h3>
+                    <p>Ручні ліхтарі, налобні фонарики, LED-лампи та акумуляторне освітлення</p>
+                    <span class="catalog__arrow">&rarr;</span>
+                </div>
+
+                <div class="catalog__card reveal reveal--up" style="--delay:.6s" tabindex="0">
+                    <div class="catalog__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+                    </div>
+                    <h3>Спорт і відпочинок</h3>
+                    <p>Спортивний інвентар, м'ячі, скакалки та товари для активного відпочинку</p>
+                    <span class="catalog__arrow">&rarr;</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title reveal">Наш <span class="red">магазин</span></h2>
+            <div class="gallery__grid">
+                <div class="gallery__item reveal reveal--up" style="--delay:.05s">
+                    <img src="img/store-front.jpg" alt="Фасад магазину MAXIMUM" loading="lazy">
+                    <div class="gallery__overlay">
+                        <span>Головний вхід</span>
+                    </div>
+                </div>
+                <div class="gallery__item reveal reveal--up" style="--delay:.15s">
+                    <img src="img/store-side.jpg" alt="Магазин MAXIMUM — бічний вигляд" loading="lazy">
+                    <div class="gallery__overlay">
+                        <span>Вигляд спереду</span>
+                    </div>
+                </div>
+                <div class="gallery__item reveal reveal--up" style="--delay:.25s">
+                    <img src="img/store-direction.jpg" alt="Як знайти магазин MAXIMUM" loading="lazy">
+                    <div class="gallery__overlay">
+                        <span>Як нас знайти</span>
+                    </div>
+                </div>
+            </div>
+            <p class="gallery__note reveal">Завітайте до нас — побачите ще більше!</p>
+        </div>
+    </section>
+
+    <!-- MetLife -->
+    <section class="metlife" id="metlife">
+        <div class="metlife__bg-glow"></div>
+        <div class="container">
+            <div class="metlife__header reveal">
+                <div class="metlife__badge">Офіційний партнер</div>
+                <div class="metlife__logo-wrap">
+                    <img src="img/metlife-logo.png" alt="MetLife" class="metlife__logo-img">
+                </div>
+                <p class="metlife__tagline">Міжнародна страхова компанія з <strong>160-річною</strong> історією присутня у <strong>40+ країнах</strong> світу</p>
+            </div>
+
+            <div class="metlife__cards">
+                <!-- Card 1: Children's insurance -->
+                <div class="metlife__card reveal reveal--up" style="--delay:.05s">
+                    <div class="metlife__card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/>
+                        </svg>
+                    </div>
+                    <h3>Найкращий старт для вашої дитини</h3>
+                    <ul class="metlife__list">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Ощадний план на навчання та старт у житті
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Захист дитини від нещасних випадків та хвороб
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Бонусна програма — додатковий дохід на капітал
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Захист доходу батьків при непередбачених обставинах
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Гарантований капітал до досягнення дитиною 18 років
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Card 2: Pension savings -->
+                <div class="metlife__card metlife__card--featured reveal reveal--up" style="--delay:.15s">
+                    <div class="metlife__card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <div class="metlife__popular">Найпопулярніше</div>
+                    <h3>Додаткова пенсія — ваша впевненість у майбутньому</h3>
+                    <ul class="metlife__list">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Власна пенсія незалежно від держави
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Середня держпенсія — лише 5 789 грн: захистіть себе заздалегідь
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Щорічне нарахування інвестиційного доходу
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Виплата одноразово або щомісячними частинами
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Накопичення захищені навіть у разі непередбачених обставин
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Card 3: Life & family insurance -->
+                <div class="metlife__card reveal reveal--up" style="--delay:.25s">
+                    <div class="metlife__card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 22s-8-4.5-8-11.8A8 8 0 0112 2a8 8 0 018 8.2c0 7.3-8 11.8-8 11.8z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </div>
+                    <h3>Ваша впевненість за будь-яких обставин</h3>
+                    <ul class="metlife__list">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Страхування від нещасних випадків та тяжких хвороб
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Виплата при травмі, госпіталізації або операції
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Захист сім'ї при втраті годувальника
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Страхування на транспорті та від нещасного випадку
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            Виплати гарантовані — ліцензована в Україні з 1994 року
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="metlife__cta reveal">
+                <p>Дізнайтесь більше та оформіть прямо в магазині MAXIMUM</p>
+                <div class="metlife__cta-btns">
+                    <a href="tel:+380976587899" class="btn btn--primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        +380 97 65 87 899
+                    </a>
+                    <a href="https://www.metlife.ua/" target="_blank" class="btn btn--outline-blue">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+                        metlife.ua
+                    </a>
+                </div>
+                <span class="metlife__cta-note">Консультація безкоштовна — без зобов'язань</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands -->
+    <section class="brands" id="brands">
+        <div class="container">
+            <h2 class="section-title reveal">Наші <span class="red">бренди</span></h2>
+            <p class="section-subtitle reveal">Ми працюємо з перевіреними виробниками</p>
+            <div class="brands__track-wrap">
+                <div class="brands__track">
+                    <!-- Перший набір -->
+                    <div class="brands__item"><span>Ярослав</span></div>
+                    <div class="brands__item"><span>Gillette</span></div>
+                    <div class="brands__item"><span>Nivea</span></div>
+                    <div class="brands__item"><span>Procter &amp; Gamble</span></div>
+                    <div class="brands__item"><span>Henkel</span></div>
+                    <div class="brands__item"><span>Grunhelm</span></div>
+                    <div class="brands__item"><span>Baseus</span></div>
+                    <div class="brands__item"><span>Proove</span></div>
+                    <div class="brands__item"><span>Kite</span></div>
+                    <div class="brands__item"><span>Axent</span></div>
+                    <div class="brands__item"><span>Faber-Castell</span></div>
+                    <div class="brands__item"><span>Koh-i-Noor</span></div>
+                    <div class="brands__item"><span>Centropen</span></div>
+                    <div class="brands__item"><span>Технок</span></div>
+                    <div class="brands__item"><span>Hoco</span></div>
+                    <div class="brands__item"><span>Gusto</span></div>
+                    <div class="brands__item"><span>Алеана</span></div>
+                    <div class="brands__item"><span>Bogenia</span></div>
+                    <div class="brands__item"><span>Topface</span></div>
+                    <div class="brands__item"><span>Eveline</span></div>
+                    <div class="brands__item"><span>L'Oreal</span></div>
+                    <div class="brands__item"><span>BIC</span></div>
+                    <!-- Дублікат для безперервного скролу -->
+                    <div class="brands__item"><span>Ярослав</span></div>
+                    <div class="brands__item"><span>Gillette</span></div>
+                    <div class="brands__item"><span>Nivea</span></div>
+                    <div class="brands__item"><span>Procter &amp; Gamble</span></div>
+                    <div class="brands__item"><span>Henkel</span></div>
+                    <div class="brands__item"><span>Grunhelm</span></div>
+                    <div class="brands__item"><span>Baseus</span></div>
+                    <div class="brands__item"><span>Proove</span></div>
+                    <div class="brands__item"><span>Kite</span></div>
+                    <div class="brands__item"><span>Axent</span></div>
+                    <div class="brands__item"><span>Faber-Castell</span></div>
+                    <div class="brands__item"><span>Koh-i-Noor</span></div>
+                    <div class="brands__item"><span>Centropen</span></div>
+                    <div class="brands__item"><span>Технок</span></div>
+                    <div class="brands__item"><span>Hoco</span></div>
+                    <div class="brands__item"><span>Gusto</span></div>
+                    <div class="brands__item"><span>Алеана</span></div>
+                    <div class="brands__item"><span>Bogenia</span></div>
+                    <div class="brands__item"><span>Topface</span></div>
+                    <div class="brands__item"><span>Eveline</span></div>
+                    <div class="brands__item"><span>L'Oreal</span></div>
+                    <div class="brands__item"><span>BIC</span></div>
+                </div>
+            </div>
+            <p class="brands__note reveal">та ще сотні інших товарів від провідних виробників</p>
+        </div>
+    </section>
+
+    <!-- Contacts -->
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <h2 class="section-title reveal">Контакти</h2>
+            <div class="contacts__grid">
+                <div class="contacts__info reveal">
+                    <div class="contacts__block">
+                        <h3>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            Адреса
+                        </h3>
+                        <p>вул. Центральна, 43<br>с. Гнідин, Київська обл., 08340</p>
+                    </div>
+                    <div class="contacts__block">
+                        <h3>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                            Телефони
+                        </h3>
+                        <a href="tel:+380673270865" class="contacts__phone">
+                            <img src="img/kyivstar-logo.png" alt="Kyivstar" class="contacts__op-logo">
+                            +380 67 327 08 65
+                        </a>
+                        <a href="tel:+380679802200" class="contacts__phone">
+                            <img src="img/kyivstar-logo.png" alt="Kyivstar" class="contacts__op-logo">
+                            +380 67 980 22 00
+                        </a>
+                        <a href="tel:+380930889813" class="contacts__phone">
+                            <img src="img/life-logo.png" alt="Life" class="contacts__op-logo">
+                            +380 93 088 98 13
+                        </a>
+                        <a href="tel:+380976587899" class="contacts__phone contacts__phone--metlife">
+                            <img src="img/kyivstar-logo.png" alt="Kyivstar" class="contacts__op-logo">
+                            +380 97 65 87 899
+                            <span class="contacts__phone-label">MetLife</span>
+                        </a>
+                    </div>
+                    <div class="contacts__block">
+                        <h3>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            Графік роботи
+                        </h3>
+                        <p>Щодня: <strong>9:00 — 19:00</strong></p>
+                    </div>
+                    <div class="contacts__block">
+                        <h3>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0h-.056zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                            Ми в Telegram
+                        </h3>
+                        <a href="https://t.me/maximum_gnedin" target="_blank" class="contacts__telegram">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0h-.056zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                            @maximum_gnedin
+                        </a>
+                        <p class="contacts__tg-hint">Новини, акції та оновлення асортименту</p>
+                    </div>
+                </div>
+                <div class="contacts__map reveal reveal--right">
+                    <a href="https://maps.app.goo.gl/yGvuvTjBa15Ltr5S9" target="_blank" class="contacts__map-link">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1271.5!2d30.7748!3d50.3289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4b51f5e4d4b8b%3A0x2e03db3b8e498a13!2sMAXIMUM!5e0!3m2!1suk!2sua!4v1700000000000!5m2!1suk!2sua"
+                            width="100%" height="100%" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Магазин MAXIMUM на карті">
+                        </iframe>
+                    </a>
+                    <a href="https://maps.app.goo.gl/yGvuvTjBa15Ltr5S9" target="_blank" class="contacts__map-btn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        Відкрити в Google Maps
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__brand">
+                <img src="img/logo-icon.png" alt="MAXIMUM" width="28" height="28">
+                <span>MA<span class="red">X</span>IMUM</span>
+            </div>
+            <p class="footer__copy">&copy; 2019–2026 MAXIMUM. Гнідин, Київська область.</p>
+            <div class="footer__links">
+                <a href="https://t.me/maximum_gnedin" target="_blank" aria-label="Telegram">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0h-.056zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                </a>
+                <a href="tel:+380673270865" aria-label="Телефон">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Burger menu
+        const burger = document.getElementById('burger');
+        const nav = document.getElementById('nav');
+        burger.addEventListener('click', () => {
+            nav.classList.toggle('open');
+            burger.classList.toggle('open');
+        });
+        nav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('open');
+                burger.classList.remove('open');
+            });
+        });
+
+        // Header shadow on scroll
+        const header = document.querySelector('.header');
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('scrolled', window.scrollY > 20);
+        });
+
+        // Scroll reveal animations
+        const revealElements = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+
+        // Small delay to ensure DOM is ready, then observe
+        requestAnimationFrame(() => {
+            revealElements.forEach(el => revealObserver.observe(el));
+        });
+
+        // Catalog card flip on click (expand details)
+        document.querySelectorAll('.catalog__card').forEach(card => {
+            card.addEventListener('click', () => {
+                // Close other open cards
+                document.querySelectorAll('.catalog__card.active').forEach(c => {
+                    if (c !== card) c.classList.remove('active');
+                });
+                card.classList.toggle('active');
+            });
+        });
+
+        // Parallax on hero photo
+        window.addEventListener('scroll', () => {
+            const hero = document.querySelector('.hero__photo img');
+            if (hero) {
+                const speed = window.scrollY * 0.15;
+                hero.style.transform = `translateY(${speed}px)`;
+            }
+        });
+
+        // Counter animation for a fun stat
+        function animateValue(el, start, end, duration) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                el.textContent = Math.floor(progress * (end - start) + start) + '+';
+                if (progress < 1) window.requestAnimationFrame(step);
+            };
+            window.requestAnimationFrame(step);
+        }
+    </script>
+</body>
+</html>
